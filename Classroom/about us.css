@@ -1,0 +1,83 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #83527c;
+  color: #111;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #232f3e;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .logo span {
+  color: orange;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-section h1 {
+  color: #232f3e;
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  margin-top: 30px;
+  color: #37475a;
+}
+
+.about-section p,
+.about-section ul {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.about-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}

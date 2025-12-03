@@ -1,0 +1,127 @@
+:root {
+    --main-bg-color: rgb(23, 75, 171);
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    border: 2px solid red;
+}
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    padding: 0 35px;
+}
+
+nav ul {
+    height: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 23px;
+    list-style: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: brown;
+
+}
+
+.container {
+    min-height: 650px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 493px;
+    height: 26px;
+    border-radius: 5px;
+    border-color: brown;
+    margin: 0 16px 0 56px;
+}
+
+.btn {
+    padding: 12px 6px;
+    color: aliceblue;
+    background-color: var(--main-bg-color);
+    border: 2px solid bisque;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.btn:hover {
+    color: aqua;
+    border: 3px solid red;
+}
+
+.slider {
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+}
+
+.cart {
+    max-width: 91vw;
+    margin: auto;
+    background-color: beige;
+}
+
+.cart h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cards {
+    display: flex;
+
+    
+}
+
+.card-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 18px;
+}
+
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+}

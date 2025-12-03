@@ -1,0 +1,39 @@
+*{
+ padding: 0%;
+ margin: 0%;
+}
+
+.container{
+    margin-left: 50px;
+    margin-top: 60px;
+    height: 300px;
+    width: 390px;
+    background-color: rgb(120, 82, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px dashed red;
+    border-radius: 6px;
+
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 4px;
+    border: 2px solid red;
+    animation: pulse infinite alternate 1s;
+}
+
+@keyframes pulse{
+    from{
+     background-color: black;
+    }
+    to{
+ background-color: black;
+     height: 1.9em;
+     width: 1.9em;
+     border: 3px solid rgb(200, 255, 47);
+    }
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p h3{
+margin:0;
+padding: 0;
+}
+
+ul{
+    padding-left:0;
+}
+
+ul li{
+    list-style-type: none;
+}
+.card{
+    width: 370px;
+    margin-left: 20px;
+    background-color: black;
+    padding: 2px;
+}
+.thumbal{
+    height: 380px;
+    width: 290px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color:grey;
+    background-image: url("img1.jpg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card-avatar{
+    height: 380px;
+    width: 290px;
+    margin-left: 40px;
+    margin-top: 1px;
+    background-color:grey;
+    background-image: url("img2.jpg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.card-details{
+margin-left: 40px;
+margin-top: none;
+background-color: black;
+color: aliceblue;
+}

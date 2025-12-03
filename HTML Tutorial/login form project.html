@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+          margin: 0;
+          height:100vh;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          font-family:Arial,Helvetica,sans-serif;
+          background:red,yellow,blue,
+        }
+        .login-box{
+            width: 350px;
+            padding:40px;
+            border-radius:20px;
+            background:rgba(146, 52, 135, 0.5);
+            box-shadow:0 8px 25px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blue(12px);
+            color:lawngreen;
+        }
+        .login-box h2{
+            text-align: center;
+            margin-top: 25px;
+            font-size: 26px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <div class="input-group">
+                <input type="text" required placeholder="">
+                <label>username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" required placeholder="">
+                <label>password</label>
+            </div> 
+            <button type="submit" class="btn">Sign In</button>
+            <div class="extra.link">
+                <p><a href="0">forgot password</a></p>
+                <p>Don't have an account?<a href="0">Sign up</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.rings{
+    margin: 60px 60px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed greenyellow;
+   
+}
+
+.ring1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed rgb(255, 47, 210);
+   
+}
+.ring2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 34, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed greenyellow;
+   
+    
+}
+
+.ring3{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(0, 170, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed rgb(101, 156, 46);
+    color: rgb(143, 136, 47);
+    
+}
+
